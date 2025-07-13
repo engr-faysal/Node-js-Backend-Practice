@@ -7,8 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "node main.js"
-
-
   },
   "private": true,
   "keywords": [],
