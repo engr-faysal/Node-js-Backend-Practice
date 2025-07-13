@@ -1,10 +1,14 @@
 {
-  "name": "module-13-node-js",
+  "name": "module-13-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node main.js"
+
+
   },
   "private": true,
   "keywords": [],
@@ -13,5 +17,16 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^24.0.13"
-  }
+  },
+  "dependencies": {
+    "undici-types": "^7.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engr-faysal/Node-js-Backend-Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/engr-faysal/Node-js-Backend-Practice/issues"
+  },
+  "homepage": "https://github.com/engr-faysal/Node-js-Backend-Practice#readme"
 }

@@ -2,7 +2,6 @@ console.log('Happy developing ✨')
 const http = require('http');
 
 const server = http.createServer(function (request, response) {
-    // response.end('Hello World!');
 
     if (request.url == "/") {
         response.writeHead(200, {'Content-Type': 'text/html'});
@@ -21,6 +20,10 @@ const server = http.createServer(function (request, response) {
         response.write('<h1>404 Page Not Found</h1>');
         response.end();
     }
+
 });
 server.listen('5050')
 console.log('Server Run Success & listening on port 5050')
+
+
+
