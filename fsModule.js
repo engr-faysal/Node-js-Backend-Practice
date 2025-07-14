@@ -25,3 +25,4 @@ console.log('Server Run Successfully & port 5052')
 
 // localhost:5052
 // node fsModule.js
+// npm run fs
