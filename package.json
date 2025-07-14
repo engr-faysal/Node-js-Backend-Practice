@@ -10,7 +10,8 @@
     "fs": "node fsModule.js",
     "fsWrite": "node fsWriteModule.js",
     "fsRename": "node fsRename.js",
-    "delete": "node fsDelete.js"
+    "delete": "node fsDelete.js",
+    "exist": "node fsExist.js"
 
 
   },
