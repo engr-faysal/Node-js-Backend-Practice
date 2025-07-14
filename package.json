@@ -9,7 +9,9 @@
     "dev": "node main.js",
     "fs": "node fsModule.js",
     "fsWrite": "node fsWriteModule.js",
-    "fsRename": "node fsRename.js"
+    "fsRename": "node fsRename.js",
+    "delete": "node fsDelete.js"
+
 
   },
   "private": true,
