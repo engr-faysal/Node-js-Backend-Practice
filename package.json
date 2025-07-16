@@ -11,8 +11,8 @@
     "fsWrite": "node fsWriteModule.js",
     "fsRename": "node fsRename.js",
     "delete": "node fsDelete.js",
-    "exist": "node fsExist.js"
-
+    "exist": "node fsExist.js",
+    "project": "node \".\\practice project\\index1.js\""
 
   },
   "private": true,

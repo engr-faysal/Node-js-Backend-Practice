@@ -15,9 +15,9 @@ if(request.url=="/"){
 // Synchronous Fs Module
 
        let myData =  fs.readFileSync('fsModule.html');
-        response.writeHead(200, {'Content-Type': 'text/html'});
-        response.write(myData);
-        response.end();
+    response.writeHead(200, {'Content-Type': 'text/html'});
+    response.write(myData);
+    response.end();
 }
 })
 Server1.listen(5052);
